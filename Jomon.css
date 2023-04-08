@@ -1,4 +1,4 @@
-/*riset*/
+/*reset*/
 body,h1,h2,h3,h5,h6,div,a,p{
     margin: 0px;
     padding: 0px; 
@@ -41,10 +41,20 @@ header .wrap{
     justify-content: space-between;
     align-items: center;    
 }
- 
-h1{
-    margin-right: 25px;
-    border-bottom: 3px solid #000; 
+
+header nav ul{
+    display: flex;
+}
+header nav ul a{
+    margin-top: 0px;
+    margin-right: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: aliceblue;
+    text-decoration: underline;
+}
+a:last-of-type{
+    margin-right: 10px;
 }
 h2{
     margin-left: 0px;
@@ -61,7 +71,7 @@ h2{
 .j1{
     padding-top: 60px;
     padding-bottom: 100px;
-    background-color: #eeedeb;
+    background-color: #0197a6;
 }
 
 .j1 .wrap{
@@ -73,7 +83,7 @@ h2{
 .j2{
     padding-top: 40px;
     padding-bottom: 100px;
-    background-color: #0197a6;
+    background-color:#eeedeb;
 }
 
 .j2 .wrap{
@@ -85,8 +95,8 @@ h2{
 /*j3*/
 .j3{
     padding-top: 40px;
-    padding-bottom: 100px;
-    background-color: #eeedeb;
+    padding-bottom: 60px;
+    background-color: #0197a6;
 }
 
 .j3 .wrap{
@@ -96,19 +106,6 @@ h2{
 
 /*j4*/
 .j4{
-    padding-top: 40px;
-    padding-bottom: 100px;
-    background-color: #0197a6;
-}
-
-.j4 .wrap{
-     display: flex;
-     margin-top: 20px;
-     margin-left: 25px;
-}
-
-/*j5*/
-.j5{
     padding-top: 40px;
     padding-bottom: 100px;
     background-color: #eeedeb;
@@ -166,32 +163,29 @@ h2{
     }
     }
 
-/*j6*/
-.j6{
+/*j5*/
+.j5{
     padding-top: 40px;
     padding-bottom: 100px;
     background-color:#0197a6;
 }
 
-.j6 .wrap{
+.j5 .wrap{
      display: flex;
      margin-top: 20px;
      margin-right: 25px;
 }
-.j61{
+.j5 h6{
     padding-top: 1%;
     padding-right: 5%;
     text-align: right;
     font-size: 20px;
 }
 
-/*その他*/
-.j7{
-    font-size:  20px;
+/*j6*/
+.j6{
     padding-top: 40px;
     padding-bottom: 100px;
-    background-color:#ffffff;
+    background-color:#eeedeb;
 }
-
-
 
