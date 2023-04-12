@@ -143,6 +143,6 @@ p{
 }
 
 @media only screen and (max-width: 480px) {
-    .pc {display: none !important;}
-    .sp {display: block !important;}
+    .pc {display: none !important; }
+    .sp {display: block !important; }
 }
