@@ -69,6 +69,14 @@ a:last-of-type{
 .hero img{
     width: 100%;
 }
+
+.pc {
+    display: block !important;}
+}
+.sp {
+    display: none !important;}
+}
+
 .hero .catch-copy{
     position: absolute;
 }
@@ -135,5 +143,10 @@ p{
 }
 
 @media(max-width: 480px) {
-   ;
+    .pc {
+     display: none !important;}
+    }
+    .sp {
+        display: block !important;}
+    }
 }
