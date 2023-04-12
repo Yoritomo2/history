@@ -70,12 +70,8 @@ a:last-of-type{
     width: 100%;
 }
 
-.pc {
-    display: block;}
-}
-.sp {
-    display: none;}
-}
+.pc {display: block;}
+.sp {display: none;}
 
 .hero .catch-copy{
     position: absolute;
