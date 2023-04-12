@@ -70,8 +70,8 @@ a:last-of-type{
     width: 100%;
 }
 
-.pc {display: block;}
-.sp {display: none;}
+.pc {display: block !important;}
+.sp {display: none !important;}
 
 .hero .catch-copy{
     position: absolute;
@@ -139,6 +139,6 @@ p{
 }
 
 @media only screen and (max-width: 1300px) {
-    .pc {display: none; }
-    .sp {display: block; }
+    .pc {display: none !important; }
+    .sp {display: block !important; }
 }
