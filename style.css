@@ -142,11 +142,7 @@ p{
     font-size: 30px;
 }
 
-@media(max-width: 480px) {
-    .pc {
-     display: none !important;}
-    }
-    .sp {
-        display: block !important;}
-    }
+@media only screen and (max-width: 480px) {
+    .pc {display: none !important;}
+    .sp {display: block !important;}
 }
