@@ -16,7 +16,6 @@ img{
 /*共通*/
 html{
     max-width: 1920px;
-    min-width: 900px;
 }
 body{
     background-color: #0197a6;
