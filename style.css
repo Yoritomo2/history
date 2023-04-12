@@ -71,10 +71,10 @@ a:last-of-type{
 }
 
 .pc {
-    display: block !important;}
+    display: block;}
 }
 .sp {
-    display: none !important;}
+    display: none;}
 }
 
 .hero .catch-copy{
@@ -143,6 +143,6 @@ p{
 }
 
 @media only screen and (max-width: 1300px) {
-    .pc {display: none !important; }
-    .sp {display: block !important; }
+    .pc {display: none; }
+    .sp {display: block; }
 }
