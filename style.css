@@ -141,4 +141,5 @@ p{
 @media only screen and (max-width: 1300px) {
     .pc {display: none !important; }
     .sp {display: block !important; }
+    .catch-copy{background: #666}
 }
