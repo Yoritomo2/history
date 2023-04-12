@@ -145,8 +145,7 @@ p{
          opacity: 0.7;
     }
     .catch-copy  {
-        background: #333; 
-      
-        
+        background-color: rgba(128,128,128,0.7);
+  
     }
 }
