@@ -69,18 +69,20 @@ a:last-of-type{
 .hero img{
     width: 100%;
 }
-.pc {display: block !important;}
-.sp {display: none !important;}
-}
-
 .hero .catch-copy{
+    position: absolute;
+}
+.hero {
     position: absolute;
     top: 60%;
     left: 50%;
     font-size: 45px;
     font-weight: 200;
     color: aliceblue;
-     background-color: #000;
+}
+
+.pc {display: block !important;}
+.sp {display: none !important;}
 }
 
 /*イントロダクション*/
@@ -140,3 +142,5 @@ p{
     .pc {display: none !important; }
     .sp {display: block !important; }
 }
+
+
