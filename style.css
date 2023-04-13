@@ -73,7 +73,7 @@ a:last-of-type{
 .sp {display: none !important;}
 }
 
-.hero .catch-copy{
+.hero p{
     position: absolute;
     top: 60%;
     left: 50%;
