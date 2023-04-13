@@ -80,6 +80,7 @@ a:last-of-type{
     font-size: 45px;
     font-weight: 200;
     color: aliceblue;
+     background-color: rgba(128, 128, 128, 0);
 }
 
 /*イントロダクション*/
