@@ -58,6 +58,88 @@ header nav button{
     color:  #0197a6;
     text-decoration: underline;
 }
+
+a:last-of-type{
+    margin-right: 10px;
+}
+
+/*ヒーロー*/
+.hero {
+    position: relative;  
+}
+.hero img{
+    width: 100%;
+}
+.hero .catch-copy{
+    position: absolute;
+}
+.hero .catch-copy{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    font-size: 45px;
+    font-weight: 200;
+    color: aliceblue;
+}
+
+/*イントロダクション*/
+.Introduction{
+    padding-top: 80px;
+    padding-bottom: 100px;
+    background-color: #eeedeb;
+}
+.Introduction img{
+    width: 40%;
+}
+
+.Introduction .wrap{
+     display: flex;
+     margin-top: 20px;
+     margin-left: 25px;
+}
+.summary{
+    margin-top: 20px;
+    font-size: 24px;
+}
+p{
+    margin-left: 20px;
+}
+/*コンテンツ*/
+.contents{
+    padding-top: 40px;
+}
+.contents a{
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 200px;
+    color: aliceblue;  
+    display: block;
+}
+
+.contents .wrap{
+       margin-left: 45px;
+       margin-bottom: 40px;
+}
+.contents img{
+    margin-top: 40px
+}
+
+/*コンタクト*/
+.contact{
+    padding-top: 40px;
+    background-color: #eeedeb;
+}
+.contact h1{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 500px) {
+    .pc {display: none !important; }
+    .sp {display: block !important; }
+}
+
 .menu-btn {
     position: fixed;
     top: 10px;
@@ -151,116 +233,5 @@ header nav button{
 
 #menu-btn-check:checked ~ .menu-content {
     left: 0;/*メニューを画面内へ*/
-}
-
-
-a:last-of-type{
-    margin-right: 10px;
-}
-
-/*ヒーロー*/
-.hero {
-    position: relative;  
-}
-.hero img{
-    width: 100%;
-}
-.hero .catch-copy{
-    position: absolute;
-}
-.hero .catch-copy{
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    font-size: 45px;
-    font-weight: 200;
-    color: aliceblue;
-}
-
-/*イントロダクション*/
-.Introduction{
-    padding-top: 80px;
-    padding-bottom: 100px;
-    background-color: #eeedeb;
-}
-.Introduction img{
-    width: 40%;
-}
-
-.Introduction .wrap{
-     display: flex;
-     margin-top: 20px;
-     margin-left: 25px;
-}
-.summary{
-    margin-top: 20px;
-    font-size: 24px;
-}
-p{
-    margin-left: 20px;
-}
-/*コンテンツ*/
-.contents{
-    padding-top: 40px;
-}
-.contents a{
-    font-size: 25px;
-    margin-top: 30px;
-    margin-left: 200px;
-    color: aliceblue;  
-    display: block;
-}
-
-.contents .wrap{
-       margin-left: 45px;
-       margin-bottom: 40px;
-}
-.contents img{
-    margin-top: 40px
-}
-
-/*コンタクト*/
-.contact{
-    padding-top: 40px;
-    background-color: #eeedeb;
-}
-.contact h1{
-    margin-top: 50px;
-    text-align: center;
-    font-size: 30px;
-}
-
-@media only screen and (max-width: 500px) {
-    .pc {display: none !important; }
-    .sp {display: block !important; }
-}
-
-.hamburger {
-  width: 40px;
-  height: 32px;
-  position: relative;
-}
-
-.hamburger_bar {
-  display: block;
-  width: 100%;
-  height: 4px;
-  position: absolute;
-  left: 0;
-  background: #000;
-}
-
-.hamburger_bar:nth-child(1) {
-  top: 0;
-}
-
-.hamburger_bar:nth-child(2) {
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.hamburger_bar:nth-child(3) {
-  top: 100%;
-  transform: translateY(-100%);
 }
 
