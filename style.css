@@ -72,9 +72,7 @@ a:last-of-type{
 .pc {display: block !important;}
 .sp {display: none !important;}
 }
-.hero .catch-copy{
-    position: absolute;
-}
+
 .hero .catch-copy{
     position: absolute;
     top: 60%;
@@ -82,7 +80,6 @@ a:last-of-type{
     font-size: 45px;
     font-weight: 200;
     color: aliceblue;
-     background-color: rgba(128, 128, 128, 0);
 }
 
 /*イントロダクション*/
