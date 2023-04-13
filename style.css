@@ -138,4 +138,6 @@ p{
 @media only screen and (max-width: 500px) {
     .pc {display: none !important; }
     .sp {display: block !important; }
+    .catch-copy{
+     background-color: rgba(128, 128, 128 )}
 }
