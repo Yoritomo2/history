@@ -47,10 +47,10 @@ header .wrap{
     justify-content: space-between;
     align-items: center;
 }
-header nav ul{
+header .menu{
     display: flex;
 }
-header nav wrap{
+header .menu-content-pc{
     margin-top: 0px;
     margin-right: 20px;
     font-family: 'Times New Roman', Times, serif;
