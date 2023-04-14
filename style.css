@@ -48,6 +48,7 @@ header .menu{
     align-items: center;
     }
 
+header .menu-content-pc{
     margin-top: 0px;
     margin-right: 20px;
     font-family: 'Times New Roman', Times, serif;
