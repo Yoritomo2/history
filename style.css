@@ -36,19 +36,19 @@ section.wrap{
 }
 
 /*ヘッダー*/
-header img{
+.header img{
     width: 15%;
     margin-left: 30px;
     min-width: 100px;
     min-height: 100px;
 }
-header .menu{
+.header .menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
     }
 
-header .menu-content-pc{
+.header .menu-content-pc{
     margin-top: 0px;
     margin-right: 20px;
     font-family: 'Times New Roman', Times, serif;
