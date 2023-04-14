@@ -48,12 +48,11 @@ section.wrap{
     align-items: center;
     }
 
-.header .menu-content-pc{
+.menu-content-pc{
     margin-top: 0px;
     margin-right: 20px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 35px;
-    color:  #0197a6;
     text-decoration: underline;
 }
 
