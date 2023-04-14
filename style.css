@@ -83,6 +83,10 @@ a:last-of-type{
     background-color: black;
 }
 
+.pc {display: block !important; }
+    .sp {display: none !important; }
+    
+
 /*イントロダクション*/
 .Introduction{
     padding-top: 80px;
