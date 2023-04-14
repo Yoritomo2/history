@@ -50,7 +50,7 @@ header .wrap{
 header nav ul{
     display: flex;
 }
-header nav button{
+header nav wrap{
     margin-top: 0px;
     margin-right: 20px;
     font-family: 'Times New Roman', Times, serif;
