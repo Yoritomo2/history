@@ -43,7 +43,6 @@ header img{
     min-height: 100px;
 }
 header .wrap-pc{
-    text-align: center;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -85,7 +84,6 @@ a:last-of-type{
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-.pc {display: block !important; }
 .sp {display: none !important; }
     
 
