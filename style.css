@@ -43,6 +43,8 @@ header img{
     min-height: 100px;
 }
 header .wrap-pc{
+    text-align: center;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
