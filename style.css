@@ -42,7 +42,7 @@ header img{
     min-width: 100px;
     min-height: 100px;
 }
-header .wrap{
+header .wrap-pc{
     display: flex;
     justify-content: space-between;
     align-items: center;
