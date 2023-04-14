@@ -42,14 +42,12 @@ header img{
     min-width: 100px;
     min-height: 100px;
 }
-header .wrap{
+header .menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-header .menu{
-    display: flex;
-}
+
 header .menu-content-pc{
     margin-top: 0px;
     margin-right: 20px;
