@@ -36,29 +36,32 @@ section.wrap{
 }
 
 /*ヘッダー*/
-.menu img{
+header img{
     width: 15%;
     margin-left: 30px;
     min-width: 100px;
     min-height: 100px;
 }
-.menu{
+header .wrap{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    }
-
-.menu-content-pc{
+}
+header nav ul{
+    display: flex;
+}
+header nav ul a{
     margin-top: 0px;
     margin-right: 20px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 35px;
+    color: aliceblue;
     text-decoration: underline;
 }
-
 a:last-of-type{
     margin-right: 10px;
 }
+
 
 /*ヒーロー*/
 .hero {
